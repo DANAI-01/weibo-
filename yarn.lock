@@ -1623,9 +1623,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001093, caniuse-lite@^1.0.30001097:
-  version "1.0.30001097"
-  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001097.tgz#1129c40c9f5ee3282158da08fd915d301f4a9bd8"
-  integrity sha512-TeuSleKt/vWXaPkLVFqGDnbweYfq4IaZ6rUugFf3rWY6dlII8StUZ8Ddin0PkADfgYZ4wRqCdO2ORl4Rn5eZIA==
+  version "1.0.30001099"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001099.tgz#540118fcc6842d1fde62f4ee5521d1ec6afdb40e"
+  integrity sha512-sdS9A+sQTk7wKoeuZBN/YMAHVztUfVnjDi4/UV3sDE8xoh7YR12hKW+pIdB3oqKGwr9XaFL2ovfzt9w8eUI5CA==
 
 chalk@^1.1.3:
   version "1.1.3"
@@ -1765,9 +1765,9 @@ code-point-at@^1.0.0:
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
 collect.js@^4.12.8:
-  version "4.27.4"
-  resolved "https://registry.npmjs.org/collect.js/-/collect.js-4.27.4.tgz#210c70010c49350fd8b91bbff80a7194407d2c29"
-  integrity sha512-+umY6X+mb1qWrAsu9S2c2jyIK7nlKf1vM7E7CH6E1cm4SeBWxCGsGd1vZZ2YHP9uBfAbgHWrsvEs3g3yUodxbA==
+  version "4.28.0"
+  resolved "https://registry.npmjs.org/collect.js/-/collect.js-4.28.0.tgz#3c2c96e8e53b078c8cf00ee6d1db08d1622a316e"
+  integrity sha512-6MtSO6wOyJKNWW+mwPV0v/Lw3jvbFyRWPdJoVYkKDIebTRxHDgDXLyHGr8i1zwJVSk9rMwbYrAJEvfZA08e8dg==
 
 collection-visit@^1.0.0:
   version "1.0.0"
@@ -2228,6 +2228,11 @@ cyclist@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
   integrity sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=
+
+de-indent@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/de-indent/-/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
+  integrity sha1-sgOOhG3DO6pXlhKNCAS0VbjB4h0=
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   version "2.6.9"
@@ -3203,7 +3208,7 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
 
-he@1.2.x:
+he@1.2.x, he@^1.1.0:
   version "1.2.0"
   resolved "https://registry.npmjs.org/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
@@ -6556,6 +6561,14 @@ vue-style-loader@^4.1.0:
   dependencies:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
+
+vue-template-compiler@^2.6.11:
+  version "2.6.11"
+  resolved "https://registry.npmjs.org/vue-template-compiler/-/vue-template-compiler-2.6.11.tgz#c04704ef8f498b153130018993e56309d4698080"
+  integrity sha512-KIq15bvQDrcCjpGjrAhx4mUlyyHfdmTaoNfeoATHLAiWB+MU3cx4lOzMwrnUh9cCxy0Lt1T11hAFY6TQgroUAA==
+  dependencies:
+    de-indent "^1.0.2"
+    he "^1.1.0"
 
 vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
